@@ -1,0 +1,6 @@
+1) Create folder -->cmd
+
+2) git init --bare --shared(.git gets created in folder)
+
+3)Right click on sample.git
+   and choose share with option

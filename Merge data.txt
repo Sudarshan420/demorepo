@@ -1,0 +1,25 @@
+1) Create folder ---> cmd
+                    
+2) git init(.get gets created in folder)
+                      
+3) git clone file://server folder path
+   example :file://C:EANDE/Users/Sample.git
+                       
+4) cd sample.git(folder name)
+                       
+5) git status (to check whtr branch is updated or not)
+
+6) git pull (to retrive data from server and read/write the data)
+ 
+7) If you update or change data,then
+              git add .
+
+              git commit -m "some name"
+
+              git push -u origin master
+   now changes you made will be read by server side person
+
+
+
+
+       

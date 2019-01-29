@@ -1,0 +1,42 @@
+Git bash
+1)To initilize git
+  git init
+for server
+git init --bare --shared 
+
+2)To add files
+  git add .
+
+3)To save
+  git commit -m "string"
+
+4)To add to Remote Repository
+  git remote add origin url(repo)
+
+5)To push
+  git push (-f) origin master
+
+6)To create Branch
+  git branch branchName
+
+7)To display list of branches
+  git branch
+
+8)To enter branch
+  git checkout branchName
+
+9)To fetch and merge
+  git pull origin master
+
+10) lists branches merged into master
+  git branch --merged master
+
+11)git rm file1.txt
+git commit -m "remove file1.txt"
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+And to push changes to remote repo
+
+git push origin branch_name 
